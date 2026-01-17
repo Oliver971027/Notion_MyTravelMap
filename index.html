@@ -128,7 +128,7 @@ am5.ready(function() {
     polygonSeries.mapPolygons.template.events.on("click", function(ev) {
         var data = ev.target.dataItem.dataContext;
         if (data.url && data.url.trim() !== "") {
-            window.open(data.url, "_blank");
+            window.open(data.url, "_top");
         }
     });
 
@@ -210,3 +210,4 @@ am5.ready(function() {
 
 </body>
 </html>
+
